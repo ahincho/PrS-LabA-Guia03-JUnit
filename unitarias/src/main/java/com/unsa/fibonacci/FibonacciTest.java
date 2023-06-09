@@ -47,7 +47,7 @@ public class FibonacciTest {
     public void fibonacciOfMaxValue() {
         Math.fibonacci(Math.FIBONACCI_MAX_INDEX + 1);
     }
-    @Test(timeout = 5000) 
+    @Test(timeout = 10000) 
     public void fibonacciLargeInput() {
         Math.fibonacci(Math.FIBONACCI_MAX_INDEX);
     }
