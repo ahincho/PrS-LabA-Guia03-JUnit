@@ -39,7 +39,6 @@ public class PrimeNumberCheckerTest {
     @Test
     public void testPrimeNumberChecker() {
         System.out.println("Parameterized Number is : " + inputNumber);
-        assertEquals(expectedResult,
-            primeNumberChecker.validate(inputNumber));
+        assertEquals(expectedResult, primeNumberChecker.validate(inputNumber));
     }
 }
