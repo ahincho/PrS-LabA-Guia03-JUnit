@@ -27,11 +27,12 @@ public class PrimeNumberCheckerTest {
     @Parameterized.Parameters
     public static Collection<Object[]> primeNumbers() {
         return Arrays.asList(new Object[][] {
+            { 1, true },
             { 2, true },
             { 6, false },
             { 19, true },
             { 22, false },
-            { 23, true }
+            { 23, true },
         });
     }
     // Esta prueba se ejecutara 4 veces ya que tenemos 5 parametros definidos
